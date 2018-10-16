@@ -1,4 +1,4 @@
-﻿databasename = sysmoney;
+﻿/*databasename = sysmoney */
 
 /*sequence for city table */
 create sequence seq_city;

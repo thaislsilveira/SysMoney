@@ -19,7 +19,7 @@ class Connection {
     /**
      * A senha do banco de dados
      */
-    const PASSWORD = '123456';
+    const PASSWORD = 'postdba';
     /**
      * O host do banco de dados. Por padrão é 127.0.0.1 ou localhost
      */

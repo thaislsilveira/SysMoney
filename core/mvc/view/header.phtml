@@ -3,7 +3,6 @@
 use core\Application;
 use core\util\Session;
 
-
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -37,16 +36,16 @@ use core\util\Session;
                     <li><a href="Request.php?class=CityCtr&method=showView">Cidades</a></li>
                     <li><a href="Request.php?class=CategoryCtr&method=showView">Categorias</a></li>
                     <li><a href="#">Contas</a></li>
-                    <li><a href="#">Usuários</a></li>
+                    <li><a href="Request.php?class=UserCtr&method=showView">Usuários</a></li>
                 </ul>
             </li>
             <li>
                 Consultas
                 <ul>
                     <li><a href="Request.php?class=CityCtr&method=showList">Cidades</a></li>
-                    <li><a href="#">Categorias</a></li>
+                    <li><a href="Request.php?class=CategoryCtr&method=showList">Categorias</a></li>
                     <li><a href="#">Contas</a></li>
-                    <li><a href="#">Usuários</a></li>
+                    <li><a href="Request.php?class=UserCtr&method=showList">Usuários</a></li>
                 </ul>
             </li>
             <li>
@@ -61,7 +60,4 @@ use core\util\Session;
         </ul>
     </nav>
     
-    <section class="content">
-
-
-    
+    <section class="content"> 

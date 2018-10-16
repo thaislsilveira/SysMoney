@@ -1,16 +1,15 @@
 <?php
-
 namespace app\model;
 
-final class CategoryModel extends \core\mvc\Model{
+use core\mvc\Model;
 
+final class CategoryModel extends Model{
 
     private $name;
 
-
     public function __construct($id = null, $name = null)
     {
-        parent :: __construct($id);
+        parent::__construct($id);
         $this->name = $name;
     }
 
@@ -19,12 +18,12 @@ final class CategoryModel extends \core\mvc\Model{
     }
 
     public function getName(){
-        return $this ->name;
-    
+        return $this->name;
     }
 
-    public function show(){
-
+    public function show()
+    {
+        
     }
 
 }
